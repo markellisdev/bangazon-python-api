@@ -24,7 +24,7 @@ def unload_fixture(apps, schema_editor):
 class Migration(migrations.Migration):  
 
     dependencies = [
-        ('api', '0005_orderproduct'),
+        ('api', '0005_orderproduct'),#app name, file to migrate
     ]
 
     operations = [
